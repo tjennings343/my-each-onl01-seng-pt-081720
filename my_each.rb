@@ -1,6 +1,7 @@
 def my_each(learn)
   x = 0
   while x < learn.length
+    yield learn[x]
     x = x + 1
   end
 
