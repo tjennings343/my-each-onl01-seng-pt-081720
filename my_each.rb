@@ -4,5 +4,15 @@ def my_each(learn)
     x = x + 1
   end
 
-  # code here
 end
+
+
+my_each(["math", "science", "history"]) do |clas|
+  if clas.length > 4
+    puts "I love #{clas}"
+  end
+end
+
+
+
+
