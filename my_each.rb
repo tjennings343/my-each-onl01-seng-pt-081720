@@ -9,6 +9,6 @@ end
 
 my_each(["math", "science", "history"]) do |clas|
   if clas.length > 4
-    puts "I love #{clas}"
+    "I love #{clas}"
   end
 end
