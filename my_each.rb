@@ -12,7 +12,3 @@ my_each(["math", "science", "history"]) do |clas|
     puts "I love #{clas}"
   end
 end
-
-
-
-
